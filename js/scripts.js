@@ -1,2 +1,3 @@
-var name = prompt("Enter your name:")
-var gender = prompt("male or female")
+let day=document.getElementById ("day");
+let month=document.getElementById ("month");
+let year=document.getElementById ("month");
