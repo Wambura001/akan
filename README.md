@@ -13,3 +13,5 @@ JavaScript
 ##SUPPORT AND CONTACT DETAILS
 email: meshack.sirincha@student.moringaschool.com
 ***
+
+copyright (C) 2021
