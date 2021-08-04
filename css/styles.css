@@ -8,5 +8,9 @@ h2 {
 }
 .box {
   margin: 20px;
-  background-color: skyblue;
+ 
+}
+.form {
+  padding: 60px;
+  background-color: #90B579 ;
 }
