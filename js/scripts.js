@@ -1,3 +1,2 @@
-let day=document.getElementById ("day");
-let month=document.getElementById ("month");
-let year=document.getElementById ("month");
+var day = document.getElementById("day")
+alert("akan app is still under construction")

@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="icon" href="fav.png">
-            <link href="css/styles.css" rel="stylesheet" type="text/css">
-            <title>AKAN NAME APP</title>
-    </head>
-    <body>
-        <h1>AKAN NAME APP</h1>
-        
-        <h2>About this app</h2>
-        <div class="box">
+
+<head>
+    <link rel="icon" href="fav.png">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>AKAN NAME APP</title>
+</head>
+
+<body>
+    <h1>AKAN NAME APP</h1>
+
+    <h2>About this app</h2>
+    <div class="box">
         <P>This app uses your date of birth to generate your Akan name. The Akan tribe of Ghana name their children according to the day of the week they were born. If you would like to know your Akan name fill the form below. </P>
-        </div>
-        <div class="form">
+    </div>
+    <div class="form">
         <p>Enter your name:</p>
-        <form>    
-            <input type="text" id="name" name="name"><br>
-        </form>
-        <P>Gender:</P>
-        <form>
-            
+        <form id=form action="js/scripts.js" method="GET">
+            <input type="text" id="name" name="name" placeholder="name" required><br>
+
+            <P>Gender:</P>
+
+
             <input type="radio" id="male" name="gender" value="male">
             <label for="male">male</label><br>
             <input type="radio" id="female" name="gender" value="female">
-            <label for="female">female</label><br>
+            <label for="female">female</label><br><br>
+
+            <label for="birthdate">Birthdate:</label><br>
+            <input type="date" id="birthdate" name="birthdate" required><br><br>
+
+            <input type="reset" name="reset" value="Reset">
         </form>
-        <p>Use numbers to fill in your birthday:</p>
-        <form>
-         <label for="day">Day:</label><br>
-         <input type="text" id="day" name="day"><br>
-         <label for="month">Month:</label><br>
-         <input type="text" id="month" name="month"><br>
-         <label for="year">Year:</label><br>
-         <input type="text" id="year" name="year"><br><br>
-         <input type="submit" value="submit">
-        </form>
-        </div>
-    </body>
-</html> 
+
+
+        <script src=js/scripts.js></script>
+    </div>
+</body>
+
+</html>
